@@ -1,0 +1,36 @@
+:root{
+    /* COLORS */
+
+    /* product */
+
+    --brand-color: #EF5F4C;
+
+    /* shape */
+
+    --bg-color:#FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency:#FFFFFF56;
+
+    /* text */
+
+    --text-primary-color: #313131;
+    --text-color-secundary: #6C6C6C;
+
+
+    /* TYPOGRAPHY */
+
+    --global-font-family:"Poppins", serif, sans-serif;
+
+    --heading-1-size: 2rem;
+    --heading-1-line-height: 125%;
+    --heading-1-weight: bold;
+
+    --paragraph-md-size: 0.875rem;
+    --paragraph-md-and-sm-line-height: 170%;
+    --paragraph-md-and-sm-weight: normal;
+
+    --paragraph-sm-size: 0.75rem;
+    
+}
+

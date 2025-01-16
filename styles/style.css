@@ -1,0 +1,62 @@
+@import url(global.css);
+
+#header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.25rem;
+    padding-inline: 2rem;
+    background-color: var(--surface-color);
+}
+
+#explorer-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#info-container{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 2rem;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-name-heading{
+    font-size: var(--heading-1-size);
+    font-weight: var(--heading-1-weight);
+    line-height: var(--heading-1-line-height);
+}
+
+.user-container-description{
+    display: flex;
+    gap: 2rem;
+    width: 45%;
+}
+
+.status-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.status-container__item{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+
+
+
+
+.touristic-places-gallery-photos{
+    width: 286px;
+    height: 286px;
+}

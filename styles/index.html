@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -9,48 +9,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <title>Travelgram</title>
 
     </head>
 
     <body>
-        <header>
-            <img src="icons/Logo.svg" alt="the website logo image Travelgram">
+        <header id="header-container">
+           <a href="#" id="logo">
+                <img src="../assets/icons/Logo.svg" alt="the website logo image Travelgram">
+           </a>
 
-            <nav>
-                <img src="icons/MagnifyingGlass.svg" alt="Magnifying glass icon, used to explore content">
+            <nav id="explorer-container">
+                <img src="../assets/icons/MagnifyingGlass.svg" alt="Magnifying glass icon, used to explore content">
                 <a href="">Explorar</a>
                 <a href="">Minhas viagens</a>
-                <img class="profile-picture" src="images/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="profile photo">
+                <img src="../assets/profile-images/mini_profile_pic.png" alt="profile photo">
             </nav>
         </header>
 
 
-        <main>
-            <section>
-                <article>
-                    <img class="big-profile-picture" src="images/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="a woman with her hair tied up and a black sweatshirt">
-                    <div>
-                        <h1>Isabela Torres</h1>
+        <main class="main-container">
+            <section id="info-container">
+                <article class="user-container-description">
+                    <img src="../assets/profile-images/profile_pic.png" alt="a woman with her hair">
+                    <div class="user-info">
+                        <h1 class="user-name-heading">Isabela Torres</h1>
                         <p>Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸</p>    
                     </div>
                 </article>
 
-                <ul>
-                    <li>
-                        <img src="icons/MapPin.svg" alt="">
-                        <p>São Paulo, Brazil</p>
+                <ul class="status-container">
+                    <li class="status-container__item">
+                        <img src="../assets/icons/MapPin.svg" alt="">
+                        <p class="status-container_text">São Paulo, Brazil</p>
                     </li>
 
-                    <li>
-                        <img src="icons/AirplaneTilt.svg" alt="">
-                        <p>37 países</p>
+                    <li class="status-container__item">
+                        <img src="../assets/icons/AirplaneTilt.svg" alt="">
+                        <p class="status-container_text">37 países</p>
                     </li>
 
-                    <li>
-                        <img src="icons/Image.svg" alt="">
-                        <p>240 fotos</p>
+                    <li class="status-container__item">
+                        <img src="../assets/icons/Image.svg" alt="">
+                        <p class="status-container_text">240 fotos</p>
                     </li>
                 </ul>
 
@@ -59,62 +62,62 @@
             <section>   
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 01.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 01.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 02.png" alt="Image of Venice, Italy, showing the canal with gondolas">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 02.png" alt="Image of Venice, Italy, showing the canal with gondolas">
                     <figcaption>Veneza, itália <br> 18/02/2023</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 03.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 03.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 04.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 04.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 05.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 05.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 06.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 06.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 07.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 07.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 08.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 08.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 09.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 09.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 10.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 10.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 11.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 11.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
                 <figure>
-                    <img class="touristic-places-gallery-photos" src="turistic-locals-images/Image 12.png" alt="">
+                    <img class="touristic-places-gallery-photos" src="../assets/turistic-locals-images/Image 12.png" alt="">
                     <figcaption>Descrição não disponível <br> Data não disponível</figcaption>
                 </figure>
 
