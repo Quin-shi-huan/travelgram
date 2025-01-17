@@ -10,11 +10,11 @@
     --bg-color:#FFFFFF;
     --surface-color: #F5F5F5;
     --skeleton-color: #D9D9D9;
-    --shape-transparency:#FFFFFF56;
+    --shape-transparency:#ffffff8f;
 
     /* text */
 
-    --text-primary-color: #313131;
+    --text-color-primary: #313131;
     --text-color-secundary: #6C6C6C;
 
 
@@ -22,15 +22,13 @@
 
     --global-font-family:"Poppins", serif, sans-serif;
 
-    --heading-1-size: 2rem;
-    --heading-1-line-height: 125%;
-    --heading-1-weight: bold;
+    --heading-1: bold 2rem/125% var(--global-font-family);
 
-    --paragraph-md-size: 0.875rem;
-    --paragraph-md-and-sm-line-height: 170%;
-    --paragraph-md-and-sm-weight: normal;
+    --text: 1rem/150% var(--global-font-family);
 
-    --paragraph-sm-size: 0.75rem;
+    --text-md: 0.875rem/170% var(--global-font-family);
+  
+    --text-sm: 0.75rem/170% var(--global-font-family);
     
 }
 

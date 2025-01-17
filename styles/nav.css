@@ -1,0 +1,17 @@
+#explorer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.25rem;
+    padding-inline: 2rem;
+    width: 100%;
+    background-color: var(--surface-color);
+}
+
+.primary-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+}
