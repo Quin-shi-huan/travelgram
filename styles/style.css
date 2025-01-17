@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(nav.css);
+@import url(info.css);
 
 *{
     font-family: var(--global-font-family);
@@ -11,67 +12,14 @@ body{
     color: var(--text-color-secundary);
 }
 
-#header-container{
-   display: flex;
-}
 
-.profile-links{
-    font: var(--text-md);
-    color: var(--text-color-secundary);
-}
 
-.profile-links:hover{
-    color: var(--brand-color);
-    text-decoration: underline;
-}
 
-p{
-    font: var(--text-sm);
-}
 
-#info-container{
-    display: flex;
-    justify-content: space-between;
-    padding-block: 2rem;
-    padding-inline: 2rem;
-    align-items: center;
-    background-color: var(--surface-color);
-}
 
-.user-info{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
 
-    padding-block-start: 1rem;
-}
 
-.user-name-heading{
-    font: var(--heading-1);
-    color: var(--text-color-primary);
-}
 
-.user-container-description{
-    display: flex;
-    gap: 2rem;
-    width: 45%;
-}
-
-.status-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-    
-  height: 140px;
-  width: 280px;
-}
-
-.status-container__item{
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
 
 #touristic-gallery-photos{
     display: grid;
