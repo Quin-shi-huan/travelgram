@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding-block: 2rem;
-    padding-inline: 2rem;
     align-items: center;
     background-color: var(--surface-color);
 }
@@ -12,6 +11,11 @@
     gap: 2rem;
 
     width: 40%;
+}
+
+.user-container-description > img{
+    width: 176px;
+    height: 176px;
 }
 
 .user-info{

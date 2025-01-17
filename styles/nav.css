@@ -1,11 +1,12 @@
+.bg-surface-color{
+    background-color: var(--surface-color);
+}
+
 #explorer-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-block: 1.25rem;
-    padding-inline: 2rem;
-    width: auto;
-    background-color: var(--surface-color);
 }
 
 .primary-menu{
@@ -16,12 +17,12 @@
     gap: 24px;
 }
 
-.profile-links{
+.text-links{
     font: var(--text-md);
     color: var(--text-color-secundary);
 }
 
-.profile-links:hover{
+.text-links:hover{
     color: var(--brand-color);
     text-decoration: underline;
 }

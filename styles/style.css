@@ -1,34 +1,11 @@
 @import url(global.css);
 @import url(nav.css);
 @import url(info.css);
-
-*{
-    font-family: var(--global-font-family);
-}
+@import url(main.css);
+@import url(footer.css);
 
 body{
     font: var(--text);
     background-color: var(--bg-color);
     color: var(--text-color-secundary);
-}
-
-
-
-
-
-
-
-
-
-
-#touristic-gallery-photos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-inline: 2rem;
-    padding-block: 2rem;
-}
-
-.touristic-places-gallery-photos{
-    width: 286px;
-    height: 286px;
 }

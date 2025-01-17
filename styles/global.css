@@ -1,3 +1,21 @@
+*{
+    font-family: var(--global-font-family);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--text-color-secundary);
+}
+
+.container{
+    margin-inline: auto;
+    padding-inline: 2rem;
+    max-width: 1280px;
+}
+
+
 :root{
     /* COLORS */
 
@@ -29,6 +47,5 @@
     --text-md: 0.875rem/170% var(--global-font-family);
   
     --text-sm: 0.75rem/170% var(--global-font-family);
-    
 }
 
