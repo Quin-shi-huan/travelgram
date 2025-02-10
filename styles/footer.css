@@ -16,3 +16,10 @@ footer{
 
     gap: 24px;
 }
+
+@media (width <= 64rem) {
+    footer{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+}

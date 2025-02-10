@@ -26,3 +26,9 @@
     color: var(--brand-color);
     text-decoration: underline;
 }
+
+@media (width <= 42.8125rem) {
+        #info-container{
+            display: none;
+        }
+}
